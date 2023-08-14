@@ -31,6 +31,12 @@ spoofCurrentCID(char* cid)
 spoofInputMode(int mode)
 Дает возможность спуфа InputMode (default: 0)
 
+setClientPiqHandler(void(*fn)(const int piq))
+Дает возможность поставить хендлер-функцию piq от клиента
+
+setServerPiqHandler(void(*fn)(const int piq))
+Дает возможность поставить хендлер-функцию piq от сервера
+
 sendToClient(char* buffer, int length)
 Дает возможность отправку баффера клиенту
 
