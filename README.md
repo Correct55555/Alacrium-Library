@@ -50,9 +50,9 @@ convertPiq(int piq)
 ### Типы при конвертировании:
 
 Lib::UnkownPiq - ?
-Lib::TextPiq - Отправляется когда игрок написал что-то в чат, или ему (зависит откуда он получен)
-Принимает: getTextMessage(), getTextType()
-Lib::DisconnectPiq - Отправляется когда игрока кикнули (только в Server?)
-Принимает: getDisconnectReason()
-Lib::StartGamePacket - Отправляется когда игрок начал игру (только в Server)
-Принимает: getEntityRuntimeID(), getEntityUniqueID()
+  Lib::TextPiq - Отправляется когда игрок написал что-то в чат, или ему (зависит откуда он получен)
+  Принимает: getTextMessage(), getTextType()
+  Lib::DisconnectPiq - Отправляется когда игрока кикнули (только в Server?)
+  Принимает: getDisconnectReason()
+  Lib::StartGamePiq - Отправляется когда игрок начал игру (только в Server)
+  Принимает: getEntityRuntimeID(), getEntityUniqueID()
