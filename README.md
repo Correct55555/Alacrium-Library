@@ -25,9 +25,6 @@ spoofDeviceOS(int os)
 spoofDeviceModel(char* model)
 Дает возможность спуфа DeviceModel (default: "unkown")
 
-spoofCurrentCID(char* cid)
-Дает возможность спуфа ClientRandomID (default: "-0")
-
 spoofInputMode(int mode)
 Дает возможность спуфа InputMode (default: 0)
 
