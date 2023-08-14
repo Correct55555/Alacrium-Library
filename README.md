@@ -56,3 +56,4 @@ Lib::UnkownPiq - ?
   Принимает: getDisconnectReason()
   Lib::StartGamePiq - Отправляется когда игрок начал игру (только в Server)
   Принимает: getEntityRuntimeID(), getEntityUniqueID()
+  Lib::PlayerMovePiq - Отправляется когда игрок двигается (только в Client)
